@@ -5,7 +5,7 @@ import service.ShoppingCart;
 
 
 import static model.constants.Colour.redApple;
-import static model.constants.Colour.greenApple;//тест
+import static model.constants.Colour.greenApple;
 
 
 public class main {

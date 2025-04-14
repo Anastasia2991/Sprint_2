@@ -1,16 +1,16 @@
 package model;
 
-import static model.constants.Discount.allDiscount;
+import static model.constants.Discount.ALL_DISCOUNT;
 
 public class Meat extends Food implements Discountable {
 
     public Meat(int amount, double price) {
-        super(amount, price, false, null);
+        super(amount, price, false);
     }
 
     @Override
     public double getDiscount() {
-        return allDiscount;}
+        return ALL_DISCOUNT;}
 
 
 }
